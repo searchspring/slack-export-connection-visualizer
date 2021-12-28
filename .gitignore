@@ -1,0 +1,6 @@
+data/*
+!data/placeholder.txt
+*.png
+output
+.DS_Store
+.env
