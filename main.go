@@ -171,10 +171,10 @@ func loadUserIDToDepartmentMap(excludeExecs bool) (map[string]string, map[string
 		}
 	}
 
+	email := 0
 	dept := 1
-	email := 4
 
-	f, err := os.Open("data/Company Directory _ Org Chart - Searchspring.csv")
+	f, err := os.Open("data/dept.csv")
 	if err != nil {
 		panic(err)
 	}
